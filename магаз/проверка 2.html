@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Магазин спортивных товаров</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #d39907;
+        padding: 20px;
+      }
+      h1 {
+        margin: 0;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      nav li:last-child {
+        margin-right: 0;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+      main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+      h2 {
+        color: #333;
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+      h3 {
+        margin: 0;
+        font-size: 24px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      p {
+        margin: 10px 0 0 0;
+      }
+      .sport-category {
+        margin-bottom: 30px;
+      }
+      .cart {
+        float: right;
+        background-color: #333;
+        color: #ffffff;
+        padding: 20px;
+      }
+      .cart-total {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      .add-to-cart {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      .add-to-cart:hover {
+        background-color: #111;
+      }
+      @media (max-width: 767px) {
+        /* Стили для экранов меньше 768 пикселей */
+        header {
+          padding: 10px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+        nav li {
+          display: block;
+          margin-bottom: 10px;
+        }
+        .cart {
+          float: none;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        /* Стили для экранов шире или равных 768 пикселей */
+        header {
+          padding: 20
+px;
+}
+h1 {
+font-size: 36px;
+}
+nav li {
+display: inline-block;
+margin-right: 20px;
+}
+.cart {
+padding: 20px;
+}
+}
+</style>
+
+  </head>
+  <body>
+    <header>
+      <h1>Магазин спортивных товаров</h1>
+      <nav>
+        <ul>
+          
+          <li><a href="goods.html">Товары</a></li>
+          <li><a href="онас.html">О нас</a></li>
+          <li><a href="contacts2.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Товары</h2>
+      <div class="cart">
+        Корзина: <span class="cart-total">0 тенге</span>
+      </div>
+      <div class="sport-category">
+        <h2>Баскетбол</h2>
+        <ul>
+          <li>
+            <h3>Мяч для баскетбола</h3>
+            
+<div>
+  <style>
+    .golden-frame {
+        border: 10px solid gold;
+        padding: 10px;
+    }
+</style>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyQrM9lQELRN8GBLhG8a1YZ1pK-on8mtVseQ&usqp=CAU" alt="Мяч для баскетбола" class="golden-frame"  class="golden-frame">
+
+            <p>Цена: 5000 тенге</p>
+            <button class="add-to-cart" data-price="5000">Добавить в корзину</button>
+          </div>
+          <li>
+            <h3>Кольцо для баскетбола</h3>
+            <div>
+              <style>
+                .golden-frame {
+                    border: 10px solid gold;
+                    padding: 10px;
+                }
+            </style>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzUY4vYt5jGXHu3KA4EvJEPXId41C-ejcHA&usqp=CAU" alt="Кольцо для баскетбола" class="golden-frame">
+              <p>Цена: 15000 тенге</p>
+              <button class="add-to-cart" data-price="15000">Добавить в корзину</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <li>
+        <h3>Щиток для баскетбола</h3>
+        <div>
+          <style>
+            .golden-frame {
+                border: 10px solid gold;
+                padding: 10px;
+            }
+        </style>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIGr6AUUmBcXs8nRQA6lKauU36oxUoyPRdxQ&usqp=CAU" alt="щиток для баскетбола"  class="golden-frame">
+          <p>Цена: 25000 тенге</p>
+          <button class="add-to-cart" data-price="25000">Добавить в корзину</button>
+        </div>
+      </li>
+      <div class="sport-category">
+        <h2>Футбол</h2>
+        <ul>
+          <li>
+            <h3>Мяч для футбола</h3>
+            <div>
+              <style>
+                .golden-frame {
+                    border: 10px solid gold;
+                    padding: 10px;
+                }
+            </style>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsRp-TfBAq__-SjmeysV7hEXiwZnUdQ15LeXyR6NLUnlSkRkDK1l_bLOJxOksYCiIqXKM&usqp=CAU" alt="Мяч для футбола"  class="golden-frame">
+              <p>Цена: 7000 тенге</p>
+              <button class="add-to-cart" data-price="7000">Добавить в корзину</button>
+            </div>
+          </li>
+          </ul>
+          <li>
+            <h3>Ворота для футбола</h3>
+            <div>
+              <style>
+                .golden-frame {
+                    border: 10px solid gold;
+                    padding: 10px;
+                }
+            </style>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUNlareujuROoS_8BEoUm4UODm3CfJt6HoJw&usqp=CAU" alt="Ворота для футбола"  class="golden-frame">
+              <p>Цена: 20000 тенге</p>
+              <button class="add-to-cart" data-price="20000">Добавить в корзину</button>
+            </div>
+          </li>
+          <li>
+            <h3>бутсы</h3>
+            <div>
+              <style>
+                .golden-frame {
+                    border: 10px solid gold;
+                    padding: 10px;
+                }
+            </style>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNFgCbuFz6PoHtJp9dLnVAXczb8hhLQc2NIg&usqp=CAU" alt="бутсы"  class="golden-frame">
+              <p>Цена: 37000 тенге</p>
+              <button class="add-to-cart" data-price="37000">Добавить в корзину</button>
+            </div>
+          </li>
+          <li>
+            <h3>перчатки</h3>
+            <div>
+              <style>
+                .golden-frame {
+                    border: 10px solid gold;
+                    padding: 10px;
+                }
+            </style>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGEfQNFlwXb7ZvSUTeMonvo5IG9iozATFe0A&usqp=CAU" alt="перчатки" class="golden-frame">
+              <p>Цена: 27000 тенге</p>
+              <button class="add-to-cart" data-price="27000">Добавить в корзину</button>
+            </div>
+          </li>
+          <div class="sport-category">
+            <h2>теннис</h2>
+            <ul>
+                <li>
+                  <h3>Ракетка</h3>
+                  <div>
+                    <style>
+                      .golden-frame {
+                          border: 10px solid gold;
+                          padding: 10px;
+                      }
+                  </style>
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe4ESXb94xZvMPVkIbCmJ_KJ_mjShmz9SxUA&usqp=CAU" alt="Ракетка"  class="golden-frame">
+                    <p>Цена: 7000 тенге</p>
+                    <button class="add-to-cart" data-price="7000">Добавить в корзину</button>
+                  </div>
+                </li>
+                <li>
+                    <h3>мячь</h3>
+                    <div>
+                      <style>
+                        .golden-frame {
+                            border: 10px solid gold;
+                            padding: 10px;
+                        }
+                    </style>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhewvucKOk8gozRT01WijBSaf9WLW_0sitXg&usqp=CAU" alt="мячь" class="golden-frame">
+                      <p>Цена: 9000 тенге</p>
+                      <button class="add-to-cart" data-price="9000">Добавить в корзину</button>
+                    </div>
+                  </li>
+
+        </ul>
+      </div>
+    </main>
+    <script>
+      const addToCartButtons = document.querySelectorAll('.add-to-cart');
+      const cartTotal = document.querySelector('.cart-total');
+      let total = 0;
+
+  addToCartButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const price = parseInt(button.dataset.price);
+      total += price;
+      cartTotal.textContent = total + ' тенге';
+    });
+  });
+</script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Черный сайт с описанием онлайн магазина</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 1.5;
+            text-align: justify;
+            margin: 50px;
+        }
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            font-size: 1.5rem;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>О нашем онлайн магазине</h1>
+    <p>Мы предлагаем широкий ассортимент качественных товаров на любой вкус. В нашем магазине вы найдете все, что нужно для комфортной жизни и бытовых нужд. Наша команда профессионалов всегда готова помочь вам в выборе товаров и ответить на все ваши вопросы. Мы гордимся тем, что все сотрудники нашей компании высококвалифицированные и знают свое дело. Мы делаем все возможное, чтобы наши клиенты остались довольны нашими услугами и возвращались к нам снова и снова.</p>
+    <div class="back-button" onclick="goBack()">Назад</div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
